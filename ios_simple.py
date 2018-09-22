@@ -17,7 +17,7 @@ class SimpleIOSTests(unittest.TestCase):
         app = os.path.abspath('../../apps/TestApp/build/release-iphonesimulator/TestApp-iphonesimulator.app')
 
         self.driver = webdriver.Remote(
-           command_executor='http://127.0.0.1:27958/wd/hub',
+           command_executor='http://127.0.0.1:8121/wd/hub',
 #             command_executor='http://10.94.51.43:8265/wd/hub',
             desired_capabilities={
                 'bundleId':'com.baidu.BaiduMobile',
