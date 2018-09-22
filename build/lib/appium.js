@@ -284,10 +284,12 @@ var AppiumDriver = (function (_BaseDriver) {
     key: 'createSession',
     value: function createSession(desiredCaps, reqCaps, capabilities) {
       if(!(undefined === this.args.defaultCapabilities.webDriverAgentUrl)) {    
-        desiredCaps.webDriverAgentUrl=this.args.defaultCapabilities.webDriverAgentUrl;    
+        desiredCaps.webDriverAgentUrl=this.args.defaultCapabilities.webDriverAgentUrl;
+          // jsonwpCaps.webDriverAgentUrl=this.args.defaultCapabilities.webDriverAgentUrl;
       }
       if(!(undefined === this.args.defaultCapabilities.udid)) {    
         desiredCaps.udid=this.args.defaultCapabilities.udid;
+          // jsonwpCaps.udid=this.args.defaultCapabilities.udid;
       }
       if (desiredCaps === undefined) desiredCaps = {};
 
