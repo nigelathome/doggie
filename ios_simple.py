@@ -20,7 +20,8 @@ class SimpleIOSTests(unittest.TestCase):
            command_executor='http://127.0.0.1:8121/wd/hub',
 #             command_executor='http://10.94.51.43:8265/wd/hub',
             desired_capabilities={
-                'bundleId':'com.baidu.BaiduMobile',
+                # 'bundleId':'com.baidu.BaiduMobile',
+                'bundleId':'com.facebook.wda.integrationApp',
                 'platformName':'IOS',
                 'platformVersion':'9.3.2',
                 'deviceName': 'iPhone5 slave15',
@@ -53,12 +54,18 @@ class SimpleIOSTests(unittest.TestCase):
         # positions1.append((100, 200));
 
     def test_ui_computation(self):
-        # populate text fields with values
-        print self.driver.get_ios_quick_source()
+        try:
+            while (True):
+                page_source = self.driver.get_ios_quick_source
+                print page_source
+                sleep(30)
+        except Exception as e:
+            raise e
+
+
 #        try:
 #            self._populate()
-#        except Exception,e:
-#            print e
+#
 #    def test_ui_computation1(self):
 #        # populate text fields with values
 #        self._populate()
