@@ -20,8 +20,8 @@ class SimpleIOSTests(unittest.TestCase):
            command_executor='http://127.0.0.1:8121/wd/hub',
 #             command_executor='http://10.94.51.43:8265/wd/hub',
             desired_capabilities={
-                # 'bundleId':'com.baidu.BaiduMobile',
-                'bundleId':'com.facebook.wda.integrationApp',
+                'bundleId':'com.baidu.BaiduMobileEnterpriseA',
+                # 'bundleId':'com.facebook.wda.integrationApp',
                 'platformName':'IOS',
                 'platformVersion':'9.3.2',
                 'deviceName': 'iPhone5 slave15',
@@ -38,9 +38,9 @@ class SimpleIOSTests(unittest.TestCase):
 
         # print self.driver.page_source
         # self.driver.swipe(100, 100, 100, 400);
-        positions = [];
-        positions.append((100, 200));
-#
+        positions = []
+        positions.append((100, 200))
+
 
         self.driver.tap(positions)
         self.driver.tap(positions)
@@ -54,13 +54,13 @@ class SimpleIOSTests(unittest.TestCase):
         # positions1.append((100, 200));
 
     def test_ui_computation(self):
-        try:
-            while (True):
-                page_source = self.driver.get_ios_quick_source
-                print page_source
-                sleep(30)
-        except Exception as e:
-            raise e
+        # try:
+        while (True):
+            page_source = self.driver.get_ios_quick_source
+            print page_source
+            sleep(1)
+        # except Exception as e:
+            # raise e
 
 
 #        try:
