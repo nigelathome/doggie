@@ -20,9 +20,9 @@ class SimpleIOSTests(unittest.TestCase):
            command_executor='http://127.0.0.1:4723/wd/hub',
 #             command_executor='http://10.94.51.43:8265/wd/hub',
             desired_capabilities={
-                'bundleId':'com.baidu.BaiduMobileEnterpriseA',
+                # 'bundleId':'com.baidu.BaiduMobileEnterpriseA',
                 # 'bundleId':'com.facebook.wda.integrationApp',
-                # 'bundleId': 'com.baidu.VideoPlayer',
+                'bundleId': 'com.baidu.VideoPlayer',
                 'platformName':'IOS',
                 'platformVersion':'9.3.2',
                 'deviceName': 'iPhone5 slave15',
@@ -69,7 +69,7 @@ class SimpleIOSTests(unittest.TestCase):
 #            command_executor='http://127.0.0.1:4723/wd/hub',
 # #             command_executor='http://10.94.51.43:8265/wd/hub',
 #             desired_capabilities={
-#                 # 'bundleId':'com.baidu.BaiduMobileEnterpriseA',
+#                 'bundleId':'com.baidu.BaiduMobileEnterpriseA',
 #                 # 'bundleId':'com.facebook.wda.integrationApp',
 #                 'bundleId':'com.baidu.VideoPlayer',
 #
@@ -84,7 +84,7 @@ class SimpleIOSTests(unittest.TestCase):
 #             print driver
             # driver.quit()
             # print 'after quit() %s ' % driver
-            sleep(1)
+            # sleep(1)
         # except Exception as e:
             # raise e
 
