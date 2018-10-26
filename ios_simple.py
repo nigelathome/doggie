@@ -30,9 +30,9 @@ class SimpleIOSTests(unittest.TestCase):
            command_executor='http://127.0.0.1:4723/wd/hub',
 #             command_executor='http://10.94.51.43:8265/wd/hub',
             desired_capabilities={
-                'bundleId':'com.baidu.BaiduMobileEnterpriseA',
+                # 'bundleId':'com.baidu.BaiduMobileEnterpriseA',
                 # 'bundleId':'com.facebook.wda.integrationApp',
-                # 'bundleId': 'com.baidu.VideoPlayer',
+                'bundleId': 'com.baidu.VideoPlayer',
                 'platformName':'IOS',
                 'platformVersion':'9.3.2',
                 'deviceName': 'iPhone5 slave15',
@@ -63,7 +63,6 @@ class SimpleIOSTests(unittest.TestCase):
         # positions1 = [];
         # positions1.append((100, 200));
 
-    # encoding: utf-8
     def test_ui_computation(self):
         # try:
         # sleep(10)
@@ -82,9 +81,9 @@ class SimpleIOSTests(unittest.TestCase):
             print 't = %i' % (ed-st).microseconds
             cur_dic = {'current': current, 'time':(ed-st).microseconds}
             result.append(cur_dic)
-            sleep(0.1)
+            sleep(1)
             round -= 1
-            print u"这里".encode('UTF-8')
+
         toos_analysis.save_data(result, 'record')
 
 
