@@ -14,7 +14,6 @@
 """
 
 import traceback
-from libs import logger
 import os
 import json
 
@@ -22,7 +21,7 @@ import json
 class WritebackAndReadExecutorInfoHandler(object):
     """用于读写job执行时间，是否需要从被打断时间进行执行的类"""
     def __init__(self):
-        print "in class WritebackAndReadExecutorInfoHandler"
+        print "================="
 
     def do_writeback_action(self, interrupted_value=False, config_execute_time_sec_value=0):
         """
@@ -32,17 +31,16 @@ class WritebackAndReadExecutorInfoHandler(object):
         print "i am writing, leave me alone!"
         try:
             info_dict = {}
-            info_dict["interrupted"] = interrupted_value
-            info_dict["config_execute_time_sec"] = config_execute_time_sec_value
+            info_dict["round"] = interrupted_value
+            info_dict["time"] = config_execute_time_sec_value
 
             json_str = json.dumps(info_dict)
             cur_path = os.path.abspath('.')
-            record_file_path = "%s/execute_info_record.json" % cur_path
-            with open(record_file_path, "w") as record_file:
+            record_file_path = "%s/record.json" % cur_path
+            with open(record_file_path, "a") as record_file:
                 json.dump(json_str, record_file)
         except Exception as e:
-            logger.info("oh Jesus, Exception!")
-            logger.info(traceback.format_exc())
+            print e
 
     def do_read_action(self, key):
         """
@@ -60,8 +58,7 @@ class WritebackAndReadExecutorInfoHandler(object):
 
             return key_value
         except Exception as e:
-            logger.info("what an exception!")
-            logger.info(traceback.format_exc())
+            print e
 
 
 if __name__ == '__main__':

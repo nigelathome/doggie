@@ -1,12 +1,19 @@
 """
 Simple iOS tests, showing accessing elements and getting/setting text from them.
 """
+
+#!/usr/bin/python2.7
+# -*- coding: <'utf-8'> -*-
 import unittest
 import os
+import sys
 from random import randint
 from appiumclient import webdriver
 # import webdriver
 from time import sleep
+import time
+import datetime
+from message_analysis_ios import ToolsAnalysisClass
 
 class SimpleIOSTests(unittest.TestCase):
 
@@ -20,9 +27,9 @@ class SimpleIOSTests(unittest.TestCase):
            command_executor='http://127.0.0.1:4723/wd/hub',
 #             command_executor='http://10.94.51.43:8265/wd/hub',
             desired_capabilities={
-                # 'bundleId':'com.baidu.BaiduMobileEnterpriseA',
+                'bundleId':'com.baidu.BaiduMobileEnterpriseA',
                 # 'bundleId':'com.facebook.wda.integrationApp',
-                'bundleId': 'com.baidu.VideoPlayer',
+                # 'bundleId': 'com.baidu.VideoPlayer',
                 'platformName':'IOS',
                 'platformVersion':'9.3.2',
                 'deviceName': 'iPhone5 slave15',
@@ -42,7 +49,6 @@ class SimpleIOSTests(unittest.TestCase):
         positions = []
         positions.append((100, 200))
 
-
         self.driver.tap(positions)
         self.driver.tap(positions)
         self.driver.tap(positions)
@@ -54,13 +60,30 @@ class SimpleIOSTests(unittest.TestCase):
         # positions1 = [];
         # positions1.append((100, 200));
 
+    # encoding: utf-8
     def test_ui_computation(self):
         # try:
-        driver = None
-        while (True):
+
+        toos_analysis = ToolsAnalysisClass()
+        round = 600
+        current = 0
+        result = []
+        while (round):
+            current += 1
+            st = datetime.datetime.now()
             page_source = self.driver.get_ios_quick_source
             print page_source
+            ed = datetime.datetime.now()
+            print 't = %i' % (ed-st).microseconds
+            cur_dic = {'current': current, 'time':(ed-st).microseconds}
+            result.append(cur_dic)
             sleep(0.1)
+            round -= 1
+
+
+            # btn_open = self.driver.find_elements_by_accessibility_id('close btn')
+
+
             # if driver is not None:
             #     driver.quit()
             #     print 'after quit() %s' % driver

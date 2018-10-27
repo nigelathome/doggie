@@ -4,10 +4,12 @@
     <list default="true" id="67858405-2e1a-4eee-8280-ebd3101310cd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/ios_simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_analysis_ios.py" beforeDir="false" afterPath="$PROJECT_DIR$/message_analysis_ios.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj/project.xcworkspace/xcuserdata/lihui40.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj/project.xcworkspace/xcuserdata/lihui40.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj/xcuserdata/lihui40.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj/xcuserdata/lihui40.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+BDAlertHelper.m" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Categories/XCUIElement+BDAlertHelper.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Commands/FBDebugCommands.m" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentLib/Commands/FBDebugCommands.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/record_info_randw.py" beforeDir="false" afterPath="$PROJECT_DIR$/record_info_randw.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,48 +19,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/doggie$Unittests_for_ios_simple_SimpleIOSTests_test_ui_computation.coverage" NAME="Unittests for ios_simple.SimpleIOSTests.test_ui_computation Coverage Results" MODIFIED="1540551350836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/doggie$Unittests_for_ios_simple_SimpleIOSTests.coverage" NAME="Unittests for ios_simple.SimpleIOSTests Coverage Results" MODIFIED="1540556451154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/doggie$Unittests_in_ios_simple_py.coverage" NAME="Unittests in ios_simple.py Coverage Results" MODIFIED="1540543532400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doggie$Unittests_for_ios_simple_SimpleIOSTests_test_ui_computation.coverage" NAME="Unittests for ios_simple.SimpleIOSTests.test_ui_computation Coverage Results" MODIFIED="1540638140137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doggie$message_analysis_ios.coverage" NAME="message_analysis_ios Coverage Results" MODIFIED="1540649403394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doggie$Unittests_for_ios_simple_SimpleIOSTests.coverage" NAME="Unittests for ios_simple.SimpleIOSTests Coverage Results" MODIFIED="1540637275751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doggie$Unittests_in_ios_simple_py.coverage" NAME="Unittests in ios_simple.py Coverage Results" MODIFIED="1540636759964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/doggie$record_info_randw.coverage" NAME="record_info_randw Coverage Results" MODIFIED="1540638101633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ios_simple.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ios_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="422">
+              <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
               <folding>
-                <element signature="e#89#104#0" expanded="true" />
-                <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+                <element signature="e#139#154#0" expanded="true" />
+                <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
-        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
+      <file leaf-file-name="record_info_randw.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/record_info_randw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="e#223#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message_analysis_ios.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message_analysis_ios.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+              <folding>
+                <element signature="e#286#302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/348993582/datetime.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="232" column="8" selection-start-line="232" selection-start-column="8" selection-end-line="232" selection-end-column="8" />
+              <caret line="570" column="4" selection-start-line="570" selection-start-column="4" selection-end-line="570" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/main.py">
+      <file leaf-file-name="loader.py" pinned="false" current-in-tab="false">
+        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appiumclient/webdriver/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+            <state relative-caret-position="110">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -66,8 +85,8 @@
       <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
         <entry file="file:///Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6512">
-              <caret line="311" selection-start-line="311" selection-end-line="311" />
+            <state relative-caret-position="372">
+              <caret line="996" selection-start-line="996" selection-end-line="996" />
             </state>
           </provider>
         </entry>
@@ -94,6 +113,13 @@
       <find>麦克风</find>
       <find>quit</find>
       <find>取消</find>
+      <find>find</find>
+      <find>find_element_by_name</find>
+      <find>Non-ASCII</find>
+      <find>t =</find>
+      <find>save_excel</find>
+      <find>find_element</find>
+      <find>get_message</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,6 +129,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build/lib/appium.js" />
+        <option value="$USER_HOME$/Documents/monkey_ios_analysis.py" />
+        <option value="$PROJECT_DIR$/record_info_randw.py" />
+        <option value="$PROJECT_DIR$/message_analysis_ios.py" />
         <option value="$PROJECT_DIR$/ios_simple.py" />
       </list>
     </option>
@@ -122,9 +151,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="209" />
-    <option name="width" value="1079" />
+    <option name="x" value="1142" />
+    <option name="y" value="261" />
+    <option name="width" value="1359" />
     <option name="height" value="1185" />
   </component>
   <component name="ProjectView">
@@ -159,6 +188,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="doggie" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="doggie" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -171,7 +208,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for ios_simple.SimpleIOSTests">
+  <component name="RunManager" selected="Python.message_analysis_ios">
+    <configuration name="message_analysis_ios" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doggie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message_analysis_ios.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="record_info_randw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="doggie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/record_info_randw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Unittests for ios_simple.SimpleIOSTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="doggie" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,11 +293,15 @@
       <item itemvalue="Python tests.Unittests for ios_simple.SimpleIOSTests" />
       <item itemvalue="Python tests.Unittests in ios_simple.py" />
       <item itemvalue="Python tests.Unittests for ios_simple.SimpleIOSTests.test_ui_computation" />
+      <item itemvalue="Python.record_info_randw" />
+      <item itemvalue="Python.message_analysis_ios" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for ios_simple.SimpleIOSTests" />
+        <item itemvalue="Python.message_analysis_ios" />
         <item itemvalue="Python tests.Unittests for ios_simple.SimpleIOSTests.test_ui_computation" />
+        <item itemvalue="Python.record_info_randw" />
+        <item itemvalue="Python tests.Unittests for ios_simple.SimpleIOSTests" />
         <item itemvalue="Python tests.Unittests in ios_simple.py" />
       </list>
     </recent_temporary>
@@ -241,54 +320,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 18h 55m 32s.xml">
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.27 at 18h 06m 39s.xml">
       <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests_test_ui_computation - 2018.10.26 at 19h 18m 32s.xml">
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.27 at 18h 12m 18s.xml">
+      <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests_test_ui_computation - 2018.10.27 at 18h 23m 43s.xml">
       <configuration name="Unittests for ios_simple.SimpleIOSTests.test_ui_computation" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 19h 46m 49s.xml">
+    <history-entry file="Unittests_in_ios_simple_py - 2018.10.27 at 18h 27m 35s.xml">
+      <configuration name="Unittests in ios_simple.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.27 at 18h 37m 53s.xml">
       <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 05m 13s.xml">
+    <history-entry file="Unittests_in_ios_simple_py - 2018.10.27 at 18h 42m 53s.xml">
+      <configuration name="Unittests in ios_simple.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.27 at 18h 47m 13s.xml">
       <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 06m 05s.xml">
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.27 at 18h 50m 44s.xml">
       <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 10m 06s.xml">
-      <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests_test_ui_computation - 2018.10.27 at 18h 59m 04s.xml">
+      <configuration name="Unittests for ios_simple.SimpleIOSTests.test_ui_computation" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 11m 29s.xml">
-      <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 12m 48s.xml">
-      <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 14m 31s.xml">
-      <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests - 2018.10.26 at 20h 21m 17s.xml">
-      <configuration name="Unittests for ios_simple.SimpleIOSTests" configurationId="tests" />
+    <history-entry file="Unittests_for_ios_simple_SimpleIOSTests_test_ui_computation - 2018.10.27 at 19h 05m 39s.xml">
+      <configuration name="Unittests for ios_simple.SimpleIOSTests.test_ui_computation" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="209" width="1079" height="1185" extended-state="0" />
+    <frame x="1142" y="261" width="1359" height="1185" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33609575" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33609575" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904884" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21311475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49930653" visible="true" weight="0.2733485" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33501685" />
+      <window_info id="Structure" order="1" sideWeight="0.5006935" side_tool="true" visible="true" weight="0.2733485" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33425415" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,7 +376,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,74 +388,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ios_simple.py</url>
-          <line>63</line>
+          <url>file://$PROJECT_DIR$/message_analysis_ios.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/message_analysis_ios.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/message_analysis_ios.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appiumclient/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6512">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appiumclient/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6512">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios_simple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -400,8 +437,8 @@
         <state relative-caret-position="286">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -425,8 +462,8 @@
         <state relative-caret-position="1254">
           <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -450,8 +487,8 @@
         <state relative-caret-position="1320">
           <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -496,8 +533,8 @@
         <state relative-caret-position="1694">
           <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -542,8 +579,8 @@
         <state relative-caret-position="1298">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -581,8 +618,8 @@
         <state relative-caret-position="748">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -620,8 +657,8 @@
         <state relative-caret-position="66">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -631,8 +668,8 @@
         <state relative-caret-position="176">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
@@ -672,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6512">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appiumclient/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../work/crash_test/symbolicatecrash">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -695,8 +718,22 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
+        <state relative-caret-position="616">
           <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="996" selection-start-line="996" selection-end-line="996" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/monkey_ios_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2684">
+          <caret line="117" column="54" lean-forward="true" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -707,13 +744,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/message_analysis_ios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1401">
+          <caret line="103" column="15" lean-forward="true" selection-start-line="103" selection-start-column="15" selection-end-line="103" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1017" column="56" selection-start-line="1017" selection-start-column="56" selection-end-line="1017" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record_info_randw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#223#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/348993582/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="570" column="4" selection-start-line="570" selection-start-column="4" selection-end-line="570" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appiumclient/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="191" column="8" selection-start-line="191" selection-start-column="8" selection-end-line="191" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message_analysis_ios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+          <folding>
+            <element signature="e#286#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ios_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="422">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
           <folding>
-            <element signature="e#89#104#0" expanded="true" />
-            <marker date="1540555942079" expanded="true" signature="3154:3162" ph="..." />
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1540649921425" expanded="true" signature="3776:3784" ph="..." />
           </folding>
         </state>
       </provider>
