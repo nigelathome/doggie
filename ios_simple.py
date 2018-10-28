@@ -63,7 +63,7 @@ class SimpleIOSTests(unittest.TestCase):
     # encoding: utf-8
     def test_ui_computation(self):
         # try:
-
+        sleep(20)
         toos_analysis = ToolsAnalysisClass()
         round = 600
         current = 0
@@ -79,6 +79,7 @@ class SimpleIOSTests(unittest.TestCase):
             result.append(cur_dic)
             sleep(0.1)
             round -= 1
+        toos_analysis.save_data(result, 'record')
 
 
             # btn_open = self.driver.find_elements_by_accessibility_id('close btn')
