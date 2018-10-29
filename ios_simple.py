@@ -15,6 +15,9 @@ import time
 import datetime
 from message_analysis_ios import ToolsAnalysisClass
 
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 class SimpleIOSTests(unittest.TestCase):
 
     def setUp(self):
@@ -63,7 +66,7 @@ class SimpleIOSTests(unittest.TestCase):
     # encoding: utf-8
     def test_ui_computation(self):
         # try:
-        sleep(20)
+        # sleep(10)
         toos_analysis = ToolsAnalysisClass()
         round = 600
         current = 0
@@ -73,12 +76,15 @@ class SimpleIOSTests(unittest.TestCase):
             st = datetime.datetime.now()
             page_source = self.driver.get_ios_quick_source
             print page_source
+            # btns = self.driver.find_elements_by_accessibility_id('close')
+            # print btns
             ed = datetime.datetime.now()
             print 't = %i' % (ed-st).microseconds
             cur_dic = {'current': current, 'time':(ed-st).microseconds}
             result.append(cur_dic)
             sleep(0.1)
             round -= 1
+            print u"这里".encode('UTF-8')
         toos_analysis.save_data(result, 'record')
 
 
